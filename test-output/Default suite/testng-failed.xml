@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="PrasadProject.Bankproj.Base.Final">
+        <methods>
+          <include name="BalanceEnquiry"/>
+          <include name="beforeSuite"/>
+          <include name="EditCustomer"/>
+          <include name="EditAccount"/>
+          <include name="NewAccount"/>
+          <include name="login"/>
+          <include name="CustomisedStatement"/>
+          <include name="MiniStatement"/>
+          <include name="Log_out"/>
+          <include name="withdrawal"/>
+          <include name="Deposit"/>
+          <include name="FundTransfer"/>
+          <include name="Newcustomer"/>
+          <include name="DeleteCustomer"/>
+          <include name="DeleteAccount"/>
+        </methods>
+      </class> <!-- PrasadProject.Bankproj.Base.Final -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
